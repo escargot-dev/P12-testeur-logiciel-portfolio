@@ -74,7 +74,7 @@ function createPortfolioFromJSON() {
                 const card = document.createElement("div");
                 card.classList.add("col-lg-4", "mt-4");
                 card.innerHTML = `
-                    <div class="card portfolioContent">
+                <div class="card portfolioContent">
                     <img class="card-img-top" src="images/${item.image}" style="width:100%">
                     <div class="card-body">
                         <h4 class="card-title">${item.title}</h4>
@@ -87,7 +87,7 @@ function createPortfolioFromJSON() {
                 `;
 
                 // Append the card to the current row
-                row.apendChild(card);
+                row.appendChild(card);
 
                 // If the index is a multiple of 3 or it's the last element, create a new row
                 if ((index + 1) % 3 === 0 || index === data.length - 1) {

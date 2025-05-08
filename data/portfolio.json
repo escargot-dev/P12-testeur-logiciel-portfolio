@@ -97,17 +97,11 @@
         ],
         "link":""
     },    
-
     {
         "image": "mon portfolio.png",
         "title": "Créez et publiez votre portfolio de testeur logiciel",
         "text": "j'ai crée et publier en ligne votre propre portfolio de testeur logiciel, en mettant en avant mes compétences et projets réalisés dans le domaine du test logiciel.",
         "link": "https://github.com/escargot-dev/P12-testeur-logiciel-portfolio"
-    },   
-    {
-        "image": "image2.png",
-        "title": "Mon Vieux grimoire",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
-    }
+    }   
+   
 ]

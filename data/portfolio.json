@@ -1,6 +1,6 @@
 [
     {
-        "image": "image1.png",
+        "image": "logo-Booki.png",
         "title": "Booki",
         "text": [
             "Création de la page d'accueil d'une agence de voyage en HTML et CSS, à partir de maquettes Figma.",
@@ -12,7 +12,7 @@
         "link": "https://escargot-dev.github.io/projet-3-Booki/"
     },
     {
-        "image": "image3.png",
+        "image": "logo-Kasa.png",
         "title": "Kasa",
         "text": [
             "Développement d'une application React pour la location de logements entre particuliers.",

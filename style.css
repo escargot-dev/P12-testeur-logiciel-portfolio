@@ -48,12 +48,15 @@
 
 /* about */
 .imageAboutPage {
-    width: 100%;
-}
-.imageAboutPage {
-    border-radius: 50%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-}
+    width: 100%; /* prend 100% de la largeur disponible */
+    max-width: 250px; /* limite la taille max sur les grands écrans */
+    aspect-ratio: 1; /* force l'image à être carrée */
+    object-fit: cover; /* garde l'image sans la déformer */
+    border-radius: 50%; /* forme ronde */
+    display: block; /* pour que l'image se comporte comme un bloc */
+    margin: auto; /* centre l'image horizontalement */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* ombre légère */
+  }  
 
 /* skills */
 .skillsText.card {
@@ -87,7 +90,31 @@
 #portfolio p {
     text-align: center;
 }
-
+.portfolio-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .portfolio-card img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .portfolio-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .portfolio-card .card-text {
+    flex-grow: 1;
+    overflow: hidden;
+  }
+  
 /* contact */
 .contactColumn {
     display: flex;

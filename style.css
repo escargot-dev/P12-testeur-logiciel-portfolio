@@ -126,3 +126,47 @@
 }
 
 /* footer */
+
+
+@media screen and (max-width: 768px){
+    .hero_title {
+        font-size: 3rem;
+      }
+    
+      .hero_desc {
+        font-size: 1.5rem;
+      }
+    
+      .imageAboutPage {
+        max-width: 180px;
+      }
+    
+      .skillsText.card {
+        height: auto; /* pour éviter un bloc trop grand */
+      }
+    
+      .portfolio-card img {
+        height: 180px;
+      }
+    
+      .card-title {
+        font-size: 1.2rem;
+      }
+    
+      .portfolio-card .card-text {
+        font-size: 0.95rem;
+      }
+    
+      h2 {
+        font-size: 1.5rem;
+      }
+    
+      p,
+      li {
+        font-size: 1rem;
+      }
+    
+      .hero-text {
+        padding: 0 1rem; /* évite que le texte touche les bords sur mobile */
+      }
+    }

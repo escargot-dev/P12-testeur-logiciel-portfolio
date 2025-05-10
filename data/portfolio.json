@@ -1,6 +1,7 @@
 [
     {
         "image": "logo-Booki.png",
+        "alt": "Logo-Booki",
         "title": "Booki",
         "text": [
             "Création de la page d'accueil d'une agence de voyage en HTML et CSS, à partir de maquettes Figma.",
@@ -13,6 +14,7 @@
     },
     {
         "image": "logo-Kasa.png",
+        "alt": "Logo-kasa",
         "title": "Kasa",
         "text": [
             "Développement d'une application React pour la location de logements entre particuliers.",
@@ -24,6 +26,7 @@
     },
     {
         "image": "Sophie Bluel.png",
+        "alt": "Logo-Sophie Bluel",
         "title": "Sophie Bluel, architecte d'intérieur ",
         "text": [
             "Développement d’un site web dynamique en JavaScript pour présenter les projets d'une architecte d'intérieur.",
@@ -36,6 +39,7 @@
     },
     {
         "image": "JSE Avocats.png",
+        "alt": "Logo-JSE Avocats",
         "title": "Tests fonctionnels – JSE Avocat",
         "text": [
             "Réalisation de tests fonctionnels sur le site WordPress JSE Avocat en local via Docker.",
@@ -48,6 +52,7 @@
     },
     {
         "image": "724 events.png",
+        "alt": "Logo-724 events",
         "title": "Campagne de tests – 724events",
         "text": [
             "Conduite d’une campagne de tests complète sur le site web de l’agence événementielle 724events, exécuté via Docker.",
@@ -60,6 +65,7 @@
     },
     {
         "image": "menumaker.png",
+        "alt": "Logo-menumaker",
         "title": "Planification technique – Menu Maker by Qwanta",
         "text": [
             "Planification du développement d’un site web permettant aux restaurateurs de créer leur menu en ligne.",
@@ -73,6 +79,7 @@
      
     {
         "image": "EcoBlissBath.png",
+        "alt": "Logo-EcoBlissBath",
         "title": "Automatisation de tests - Eco Bliss Bath",
         "text": [
             "Rôle de QA Engineer pour une start-up écoresponsable : automatisation de scénarios de tests fonctionnels avec Cypress.",
@@ -86,6 +93,7 @@
     },
     {
         "image": "ApplicationFinance.png",
+        "alt": "Logo-ApplicationFinance",
         "title": "Stratégie de test – Application financière",
         "text": [
           "Mission de consultante QA dans une entreprise du secteur financier : définition de la stratégie de test avant mise en production.",
@@ -99,6 +107,7 @@
     },    
     {
         "image": "mon portfolio.png",
+        "alt": "image de mon site portfolio",
         "title": "Créez et publiez votre portfolio de testeur logiciel",
         "text": "j'ai crée et publier en ligne votre propre portfolio de testeur logiciel, en mettant en avant mes compétences et projets réalisés dans le domaine du test logiciel.",
         "link": "https://github.com/escargot-dev/P12-testeur-logiciel-portfolio"

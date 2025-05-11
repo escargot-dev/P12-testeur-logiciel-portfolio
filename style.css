@@ -18,9 +18,22 @@
 }
 
 /* display background dark color on navbar scroll */
+/* Amélioration du contraste pour la navbar */
 .navbarScroll.navbarDark {
-    background-color: #5b5b5b;
+    background-color: #2c2c2c; /* plus foncé que #5b5b5b */
 }
+
+.navbarScroll.navbarDark .nav-link,
+.navbarScroll.navbarDark .navbar-brand {
+    color: #ffffff;
+}
+
+/* Pour bien voir les liens actifs ou au survol */
+.navbarScroll.navbarDark .nav-link:hover,
+.navbarScroll.navbarDark .nav-link.active {
+    color: #00ff99; /* vert clair bien contrasté */
+}
+
 
 /* hero background image */
 .bgimage {
